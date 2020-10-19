@@ -1,10 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
     - ArcadiaState
-    - Readme
     - StartHook
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -1004,4 +1001,4 @@ ScriptsOnlyBuild:
   platform: 24
   scenePathNames:
   - Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/SampleScenes/SciFi_Industrial_SampleLayout.unity
-  playerPath: /home/admin01/projects/unity/catch_the_jelly/catch_the_jelly.x86_64
+  playerPath: /home/admin01/projects/unity/catch_the_jelly/bin/catch_the_jelly.x86_64
