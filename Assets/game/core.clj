@@ -7,9 +7,9 @@
   [g _]
   (letfn [(defn xRand [] (- (rand 13) 2))
           (defn yRand [] (+ 2 (rand 6)))
-          (defn zRand [] (+ 40 (rand 15))])
+          (defn zRand [] (+ 40 (rand 15))]
   (def v (Vector3. (xRand) (yRand) (zRand)))
-  (set! (.. g transform position) v))
+  (set! (.. g transform position) v)))
 
 (defn init
   [_ _]
